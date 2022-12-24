@@ -16,7 +16,7 @@ const retPromise = (timer, shouldReject = false) => {
   const p3 = retPromise(3000);
   const promises = [p1, p2, p3];
   try {
-    const response= await Promise.allSettled(promises); // will never reject and resolve all the arrays
+    const response= await Promise.allSettled(promises); // will never reject and resolve all the promises in the array
     // const response = await Promise.all(promises); // will reject as soon as the promise
     console.log(response);
   } catch (e) {
