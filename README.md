@@ -8,4 +8,5 @@ the new features of Javascript and write examples to better my understanding of 
 1. Proxies
 2. ```Promise.allSettled```(Difference between Promise.allSettled and Promise.all)
 3. Dynamic Import
+4. Nullish Coalescing
 
