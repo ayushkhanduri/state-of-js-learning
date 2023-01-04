@@ -5,7 +5,7 @@ the new features of Javascript and write examples to better my understanding of 
 
 ### Some of the topics covered in this are (will be updated as i add more examples):
 
-#### Browser API
+#### Language API
 
 ```
 1.  Proxies
