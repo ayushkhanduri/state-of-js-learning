@@ -12,7 +12,7 @@ Object.defineProperty(String.prototype, 'capitalize', {
 
 
 const proxy = new Proxy(obj,{
-  get(target, prop, receiver) {
+  get(target, prop, _receiver) {
     console.log("Proxied", target);
     if (typeof target[prop] === 'string'){
       return target[prop].capitalize();

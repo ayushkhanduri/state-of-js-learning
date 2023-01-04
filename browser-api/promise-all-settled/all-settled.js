@@ -1,14 +1,4 @@
-const retPromise = (timer, shouldReject = false) => {
-  return new Promise ((resolve, reject) => {
-    setTimeout(() => {
-      if (shouldReject) {
-        reject("Rejected");
-      } else {
-        resolve("Resolved");
-      }
-    }, timer);
-  });
-}
+const { retPromise } = require('../shared/utils');
 
 (async () => {
   const p1 = retPromise(1000, true);

@@ -9,4 +9,8 @@ the new features of Javascript and write examples to better my understanding of 
 2. ```Promise.allSettled```(Difference between Promise.allSettled and Promise.all)
 3. Dynamic Import
 4. Nullish Coalescing
-
+5. Private Fields (#)
+6. Numeric Seperator
+7. Replace all
+8. Logical Assignment (||=)
+9. Promise any

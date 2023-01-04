@@ -59,7 +59,7 @@ const checkValdations = (keyValidations, newValue) => {
 }
 
 const proxy = new Proxy(obj.name, {
-  set(target, p, newValue, receiver) {
+  set(target, p, newValue, _receiver) {
     try {
       const errors = checkValdations(target.validations, newValue);
       console.log(errors);
