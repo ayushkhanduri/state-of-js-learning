@@ -1,7 +1,7 @@
 # How to test this
 
-1. ```npm install```
-2. ```npm run start```
+1. Go to brower-api folder and run ```npm install```
+2. ```npm run start:service-worker```
 3. go to localhost:8080
 4. Also run the server in the shared folder in the api-server folder , ```first npm install and then npm run start```
 5. In the applications tabs you will see Service Worker
