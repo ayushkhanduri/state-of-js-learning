@@ -11,3 +11,7 @@
 9. The cache will add the api response to Cache storage
 10. Go to network , Disable cache and run the app offline. You will see everything except css is cached
 11. You can cache the css file as well , just remove it from the array in sw.js
+
+# Todo More
+
+Implement notifications using service worker
